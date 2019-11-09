@@ -1,8 +1,6 @@
-分支master的
-第二个分支
-新的插入a
-asdad
-啊啊啊啊
-=======
-找到bug 然后修复了
-dev的添加
+$ git branch
+* dev
+  master
+$ git cherry-pick 4c805e2
+[master 1d4b803] fix bug 101
+ 1 file changed, 1 insertion(+), 1 deletion(-)
